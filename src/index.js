@@ -8,7 +8,10 @@ function baseBind(fn, thisArg, args) {
         wrapper = bound.__wrapper__;
 
     wrapper.setThisArg(thisArg);
-    wrapper.addArgsLeft(args);
+
+    if (args !== null) {
+        wrapper.addArgsLeft(args);
+    }
 
     return bound;
 }
