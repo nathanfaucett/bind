@@ -1,6 +1,6 @@
 {
   "name": "@nathanfaucett/bind",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "binds object to functions this value",
   "repository": {
     "type": "git",
