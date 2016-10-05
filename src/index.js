@@ -1,6 +1,6 @@
-var isFunction = require("is_function"),
-    fastSlice = require("fast_slice"),
-    createFunctionWrapper = require("create_function_wrapper");
+var isFunction = require("@nathanfaucett/is_function"),
+    fastSlice = require("@nathanfaucett/fast_slice"),
+    createFunctionWrapper = require("@nathanfaucett/create_function_wrapper");
 
 
 module.exports = bind;
